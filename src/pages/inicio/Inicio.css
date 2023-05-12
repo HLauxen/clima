@@ -1,0 +1,119 @@
+body {
+    background: linear-gradient(rgb(105, 90, 243), rgba(0, 102, 255, 0.493));
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__pai {
+    margin: 30px;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: #727cf5;
+    box-shadow: 1px 1px 4px black;
+    padding: 5px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.form__titulo {
+    font-size:  25px;
+    color: white;
+}
+
+.inputCidade {
+    height: 19px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #727cf5;
+    padding: 10px;
+}
+
+.form__input__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.botaoProcurar {
+    height: 20px;
+    width: 23px;
+    color:#ffffff;
+    background-color: rgb(94, 159, 255);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+.botaoProcurar:hover {
+    background-color: rgb(142, 187, 255);
+    transition: 0.4s;
+    
+}
+
+.wather{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:10px;
+}
+.nome__pais {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.wather__nome {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+
+.wather__temperatura {
+    font-size: 50px;
+    margin: 0;
+}
+
+.descricaoTempo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.umidade__vento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.umidade {
+    padding-right: 10px;
+    border-right: 2px solid white;
+}
+.vento {
+    padding-left: 10px;
+}
+
+.Loading {
+    
+    color: white;
+}
