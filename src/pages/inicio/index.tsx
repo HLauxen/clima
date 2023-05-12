@@ -81,6 +81,7 @@ export default function Inicio() {
                 </div>
             {dados && (
                 <>
+                <meta  name='viewport'  content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
                 <div className='wather'>
                     <h2 className='nome__pais'>
                         <CgPin size={24}/>
